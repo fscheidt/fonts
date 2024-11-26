@@ -6,7 +6,7 @@ Faça download desse repositório como um arquivo zip
 
 ### System wide
 
-Instala as fontes para todos os usuários: 
+Faz a instalação das fontes para todos os usuários: 
 
 ```bash
 sudo cp *.ttf /usr/share/fonts/truetype/
