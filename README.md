@@ -1,10 +1,12 @@
 # Fonts
 
-## Instalação (ubuntu)
+## Instalação
+
+### ubuntu
 
 Faça download desse repositório como um arquivo zip
 
-### System wide
+#### System wide
 
 Faz a instalação das fontes para todos os usuários: 
 
@@ -13,7 +15,7 @@ sudo cp *.ttf /usr/share/fonts/truetype/
 fc-cache -f -v
 ```
 
-### User only
+#### User only
 
 Instala apenas para o usuário:
 
