@@ -1,6 +1,7 @@
 # Fonts
 
 ## Instalação (ubuntu)
+
 Faça download desse repositório como um arquivo zip
 
 ### System wide
@@ -24,8 +25,9 @@ fc-cache -f -v
 
 ## Verificação 
 
-Verifica se as fontes foram devidamente instaladas no sistema:
+Lista as fontes instaladas:
 
 ```bash
 fc-list : family | sort | uniq
 ```
+
