@@ -4,11 +4,15 @@
 
 ### ubuntu
 
-Faça download desse repositório como um arquivo zip
+fazer o download do repositório como arquivo zip:
+
+```bash
+wget https://github.com/fscheidt/fonts/releases/download/v1/fonts.zip
+```
 
 #### System wide
 
-Faz a instalação das fontes para todos os usuários: 
+Instalar as fontes para todos os usuários: 
 
 ```bash
 sudo cp *.ttf /usr/share/fonts/truetype/
@@ -17,7 +21,7 @@ fc-cache -f -v
 
 #### User only
 
-Instala apenas para o usuário:
+Instalar apenas para o usuário:
 
 ```bash
 mkdir ~/.fonts
